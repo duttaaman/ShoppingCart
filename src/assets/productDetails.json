@@ -1,0 +1,98 @@
+[
+    
+    {
+    "brand": "Hershey's", 
+    "product" :"Hershey's Milk chocolate",
+    "quantity" : "250 g",
+    "price" : 180,
+    "mrp" : 200,
+    "url" : "assets/hersheysMilk.jfif",
+    "offer": "10% Off"
+},
+    {
+    "brand": "Cadbury", 
+    "product" :" Dairy Milk Silk Fruit n Nut",
+    "quantity" : "150 g",
+    "price" : 152,
+    "mrp" : 190,
+    "url" : "assets/silkFruitNut.jfif",
+    "offer":"20% Off" 
+},
+{
+    "brand": " Cadbury", 
+    "product" :"Dairy Milk Silk Oreo",
+    "quantity" : "150 g",
+    "price" : 180,
+    "mrp" : 200,
+    "url" : "assets/silkOreo.jfif",
+    "offer": "10% Off"
+},
+{
+    "brand": "Amul", 
+    "product" :"Amul Dark Chocolate",
+    "quantity" : "150 g",
+    "price" :  99,
+    "mrp" : 150,
+    "url" : "assets/amulDark.jfif",
+    "offer": "34% Off" 
+},
+{
+    "brand": "Toblerone", 
+    "product" :"Toblerone Minis",
+    "quantity" : "250 g",
+    "price" : 200,
+    "mrp" : 250,
+    "url" : "assets/Toblerone.jfif",
+    "offer": "20% Off"
+},
+{
+    "brand": "Nestle", 
+    "product" :" Nestle L'atelier",
+    "quantity" : "100 g",
+    "price" :  135,
+    "mrp" : 150,
+    "url" : "assets/Latelier.jfif",
+    "offer": "10% OFF"
+},
+
+{
+    "brand": "Hershey's", 
+    "product" :" Hershey's Cookies n creme",
+    "quantity" : "40 g",
+    "price" : 80,
+    "mrp" : 100,
+    "url" : "assets/hersheysCookies.jfif",
+    "offer": "20% OFF"
+},
+{
+    "brand": "Nestle", 
+    "product" :"Nestle Kitkat",
+    "quantity" : "50 g",
+    "price" : 40,
+    "mrp" : 50,
+    "url" : "assets/Kitkat.jfif",
+    "offer": "20% Off"
+},
+{
+    "brand": "Ferero Rochers", 
+    "product" :"Ferero Rochers chocolate",
+    "quantity" : "450 g",
+    "price" :  630,
+    "mrp" : 700,
+    "url" : "assets/fereroRochers.jfif",
+    "offer": "10% Off"
+},
+{
+    "brand": "Cadbury", 
+    "product" :"Dairy Milk Silk Hazelnut",
+    "quantity" : "150 g",
+    "price" : 180,
+    "mrp" : 200,
+    "url" : "assets/silkHazelnut.jfif",
+    "offer": "10% Off"
+}
+
+
+
+
+]

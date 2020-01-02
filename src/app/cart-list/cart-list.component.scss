@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif
+
+}
+h3, h4{
+    color: #093a73
+}
+
+
+.img{
+    height: 150px;
+    width: 200px;
+}
+
+.panel{
+    line-height: 0.5;
+    display: inline-block; 
+    width: 50%; 
+    vertical-align: top;
+    white-space: normal;
+}
+
+button{
+border: none;
+color:white;
+background-color: #1d82f5   ;
+font-weight: bold;
+cursor: pointer;
+display: inline-block;
+padding: 10px 15px;
+text-align: center;
+}
+
+span button{
+    font-weight: bolder;
+    border-radius: 40px;
+}
+
+span{
+    font-weight: bold;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+<div *ngFor="let product of products;let i=index">
+    
+    <div class="panel">
+
+    <img src={{product.url}} class="img" alt="product image" />
+      <p >{{product.offer}}</p>
+    </div>
+  
+    <div  class="panel">
+      <h3>{{product.brand}}</h3>
+
+      <h4>{{product.product}}</h4>
+
+      <p>{{product.quantity}}</p>
+
+      <p>MRP {{product.mrp}}</p>
+
+      <p style="font-weight: bold">Rs {{product.price}}</p>
+
+      <button (click)="addToCart(i,product)">Add to cart </button>
+
+      <span> <button (click)="addToCart(i,product)"> +</button></span>
+
+      <span>{{count[i]}}</span> 
+
+      <span> <button [disabled]="!count[i]>0" (click)="removeFromCart(i,product)"> - </button></span>
+    </div>
+    
+    <hr>
+  </div>
+
+  <!-- Footer Component -->
+  <app-footer [quantity]="totalQuantity" [price]="totalPrice" (clearCountOnCheckout)="clearCart()"></app-footer>
